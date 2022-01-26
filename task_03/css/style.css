@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.page {
+    margin: 0 65px;
+}
+
+header, .sectionText {
+    background-color: black;
+    color: #FFF;
+}
+
+ul {
+    padding: 20px;
+}

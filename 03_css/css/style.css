@@ -1,0 +1,15 @@
+body {
+    background: white;
+}
+
+nav {
+    color: #ffee11;
+}
+
+section {
+    color: rgba(255, 0, 0, 0.2);
+}
+
+footer p {
+    color: rgb(255, 0, 0);
+}
