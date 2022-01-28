@@ -1,0 +1,26 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Rubik+Beastly&display=swap");
+
+.heading h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px red;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Rubik Beastly", cursive;
+}
+
+.paragraph {
+  line-height: 30px;
+  letter-spacing: 5px;
+  font-size: 30px;
+
+  font-family: "Comforter", cursive;
+}
+
+main h3 {
+    font-size: 30px;
+    font-weight: bolder;
+}

@@ -1,0 +1,74 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap");
+
+.page {
+  width: 1440px;
+}
+
+header {
+  width: 1440px;
+  height: 200px;
+  background-color: #e5e000;
+}
+
+header h1 {
+  font-size: 50px;
+  color: #fff;
+  line-height: 200px;
+  padding-left: 80px;
+  font-family: "Helvetica", sans-serif;
+}
+
+.image {
+  width: 1440px;
+  height: 1080px;
+  background-size: contain;
+  background-image: url(../img/img.png);
+}
+
+main .links {
+  width: 1440px;
+  height: 100px;
+  background-color: #e5e000;
+  line-height: 100px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  padding: 110px 80px 100px 80px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 57.5px;
+}
+
+.content h2 {
+  font-family: "Rubik Beastly", cursive;
+  font-weight: 700;
+}
+
+footer {
+  width: 1440px;
+  height: 200px;
+  background-color: #e5e000;
+}
+
+footer img {
+  padding: 77px 80px;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 50px;
+  color: #fff;
+  vertical-align: center;
+  line-height: 200px;
+  font-family: "Helvetica", sans-serif;
+}
