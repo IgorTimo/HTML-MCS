@@ -1,0 +1,54 @@
+@import url(./reset.css);
+
+.outer {
+  width: 600px;
+  height: 600px;
+  border: 5px solid black;
+  margin: auto;
+  /* background-color: navy; */
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 50px 30px;
+}
+
+main {
+    background-color: black;
+}
+
+main .padding {
+    margin: 20px auto;
+    width: 100px;
+    background-color: yellow;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.display{
+    font-size: 0;
+}
+
+.one{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+.two{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+}
+
+main div a{
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    background-color: #fff;
+}

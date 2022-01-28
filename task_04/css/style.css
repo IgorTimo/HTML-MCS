@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap");
 
 .page {
-  width: 1440px;
+  /* width: 1440px; */
 }
 
 header {
-  width: 1440px;
+  /* width: 1440px; */
   height: 200px;
   background-color: #e5e000;
 }
@@ -20,14 +20,14 @@ header h1 {
 }
 
 .image {
-  width: 1440px;
+  /* width: 1440px; */
   height: 1080px;
-  background-size: contain;
+  background-size: cover no-repeat;
   background-image: url(../img/img.png);
 }
 
 main .links {
-  width: 1440px;
+  /* width: 1440px; */
   height: 100px;
   background-color: #e5e000;
   line-height: 100px;
@@ -46,7 +46,7 @@ main .links {
   font-family: "Helvetica", sans-serif;
   font-size: 50px;
   font-weight: 300;
-  line-height: 57.5px;
+  line-height: 65px;
 }
 
 .content h2 {
@@ -55,7 +55,7 @@ main .links {
 }
 
 footer {
-  width: 1440px;
+  /* width: 1440px; */
   height: 200px;
   background-color: #e5e000;
 }
@@ -68,7 +68,9 @@ footer h3 {
   display: inline-block;
   font-size: 50px;
   color: #fff;
-  vertical-align: center;
+  vertical-align: top;
+  float: right;
+  padding-right: 80px;
   line-height: 200px;
   font-family: "Helvetica", sans-serif;
 }
