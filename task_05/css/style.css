@@ -1,0 +1,43 @@
+@import url(./reset.css);
+
+.page {
+    font-family: "Helvetica", sans-serif;
+}
+
+header, footer {
+  background-color: #fe1a19;
+}
+
+.header, .footer {
+  padding: 20px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card {
+  width: 400px;
+  height: 800px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 5px solid #E5E000;
+  border-radius: 30px;
+  margin: 50px;
+}
+
+.card h3 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    margin: 23px 0 0 23px;
+}
+
+.card div {
+    margin: 41px 0 0 23px;
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+}
