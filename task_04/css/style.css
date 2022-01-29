@@ -54,17 +54,18 @@ footer {
   height: 200px;
   box-sizing: border-box;
   background-color: #e5e000;
-  padding: 75px 80px 0 ;
+  padding: 75px 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
 
 }
 
 footer h3 {
-  display: inline-block;
   font-size: 50px;
   color: #fff;
-  vertical-align: top;
-  float: right;
-  padding-right: 80px;
   line-height: 1.2;
   font-family: "Helvetica", sans-serif;
 }
