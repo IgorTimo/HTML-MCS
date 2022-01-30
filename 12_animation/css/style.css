@@ -1,0 +1,22 @@
+@import url(./reset.css);
+@keyframes moving {
+    from { 
+        top: 0;
+        left: 0;
+    }
+
+    to{
+        top: 500px;
+        left: 500px;
+        background-color: #fff;
+    }
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    animation: moving 2s 3 alternate;
+  }
