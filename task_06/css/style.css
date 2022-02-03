@@ -1,5 +1,10 @@
 @import url(./reset.css);
 
+body {
+  max-width: 1440px;
+  width: 100%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +20,7 @@ header nav a {
   text-decoration: none;
   color: #e50043;
 }
+
 
 .main-image {
   height: 950px;
@@ -42,6 +48,10 @@ header nav a {
   border-radius: 20px;
   padding: 24px;
   margin: 150px 200px;
+}
+
+#littleHeder {
+  margin-bottom: 30px;
 }
 
 .bottles {

@@ -1,0 +1,83 @@
+@import url(./reset.css);
+
+body {
+  max-width: 1440px;
+    /* нужно ли это, чтобы странца не разъезжалась? 
+    это даже не столько к этому макету вопрос, сколько глобально. 
+    Вообще на всех макетах в фигме стоит ширина, и в последнем задании 
+    вы посоветовали ограничить максимальную ширину. 
+    так как понять когда ограничивать? или всегда нужно?  */
+}
+
+header, footer {
+  height: 160px;
+  font-family: "Times New Roman", serif;
+  font-size: 50px;
+  line-height: 57.5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #ffe138;
+  display: flex;
+}
+
+header h1 {
+  margin: auto;
+  /* так как в фигме какие-то странные отступы решил реализовать 
+  через display: flex родителя и margin: auto самого h1. 
+  Так и не понимаю когда надо задавать margin/padding, 
+  а когда flex использовать. В макете то всегда всё в пикселях указано */
+}
+
+.columns {
+  margin: 70px;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.column {
+  width: calc((100% - 100px) / 3);
+  border: solid 1px #000;
+}
+
+.column .image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100%;
+}
+
+#metaSideTable {
+  background-image: url(../img/MetaSideTable.png);
+}
+
+#clickShelf {
+  background-image: url(../img/ClickShelf.png);
+}
+
+#floatShelf {
+  background-image: url(../img/FloatShelf.png);
+}
+
+.column .textWrapper {
+  padding: 30px 33px;
+}
+
+.column .cardTitle {
+  font-weight: 700;
+  margin-bottom: 25px;
+  /* вот это тоже не до конца понимаю. margin-bottom: 25px я пишу, 
+    чтобы избежать тега <br>, как вы и советовали. Хотя в фигме никаких 
+    отступов внутри текстового блока не заданно. 25 пикселей я указываю 
+    просто потому, что line-height: 25px; Это не говоря о том, 
+    что лишнюю обертку для паддинга надо делать. 
+    Короче, не понимаю когда и как лучше делать и чем <br> так плох  */
+}
+
+footer h5 {
+    margin: auto;
+}
