@@ -1,0 +1,40 @@
+@import url(./reset.css);
+
+.first {
+  height: 200px;
+  background-color: black;
+}
+
+
+@media all and (min-width: 600px) {
+  .first {
+    height: 300px;
+    background-color: green;
+  }
+}
+
+
+@media all and (min-width: 960px) {
+  .first {
+    height: 400px;
+    background-color: orange;
+  }
+}
+
+
+@media all and (min-width: 1264px) {
+  .first {
+    height: 500px;
+    background-color: blue;
+  }
+}
+
+
+@media all and (min-width: 1264px) {
+  .first {
+    height: 600px;
+    background-color: red;
+  }
+}
+
+
