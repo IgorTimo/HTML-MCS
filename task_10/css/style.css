@@ -1,0 +1,162 @@
+@import url(./reset.css);
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+header,
+footer {
+  height: 90px;
+  background-color: #f8bfc7;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 33px 50px;
+}
+
+header nav a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  background-color: #2f70d2;
+}
+
+.imgContainer {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  /* padding-bottom: calc(643%/1440);  очень уже мне захотелось сделать эту картинук резиновой, 
+    но не до конца понимаю как. Хотель падинг функцией расчитать, но не выходит. 
+    Так же судя по макету, под картинкой просто залитый синим блок. но в фигме даже нет его цвета
+    Как итог просто подложил заливку синего (цыет как-то подобрал), чтобы не было стыков. Как надо было?*/
+  /* padding-bottom: 45%; тут ещё более странная ситуация. 45% я расчитал как соотношение 
+    высоты картинки к её ширине. И всё работало нормально, пока я внутрь блока не вставил форму. 
+    по идее на размеры внешнего блока, как и родителя это никак не влияет, но отспуп вниз(padding-bottom) 
+    стал занчительно больше. в итоге просто уменьшаю padding-bottom, но почему так выходит абсолютно не понимаю */
+  padding-bottom: 15%;
+  display: flex;
+}
+
+.formContainer {
+  width: 300px;
+  margin: 90px;
+}
+
+.form {
+  padding: 30px;
+  background-color: #f8bfc7;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+.form label,
+input {
+  display: block;
+}
+
+.form label {
+  line-height: 3.5rem;
+}
+
+.form input {
+  width: 100%;
+  background-color: #f8bfc7;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.form input::placeholder {
+  color: #fff;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.form input:focus {
+  outline: none;
+  border-bottom: 1px solid #f8bfc7;
+  /* это чтобы хоть как-то было видно фокус, но при том не навязчиво */
+}
+
+.submitContainer {
+  height: 80px;
+  display: flex;
+}
+
+input[type="submit"] {
+  margin: auto;
+  height: 60px;
+  width: 200px;
+  color: #fff;
+  font-size: 20px;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  background-color: #feb700;
+
+}
+
+.onWay {
+  background-color: #2f70d2;
+  /* height: calc(100vh - 180px - размер родителя); 
+    здесь тоже эксперементировал чтобы блок был токой высоты, 
+    чтобы весь сайт был ровно на один экран. Очевидно не вышло. 
+    Как это стоило, и стоило ли делать? */
+  height: 200px;
+}
+
+.onWay h3 {
+  margin-top: 30px;
+  color: #feb700;
+  font-size: 50px;
+  line-height: 57.5px;
+  text-align: center;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  header,
+  footer {
+    padding: 33px 10px;
+    font-size: 16px;
+  }
+
+  header nav a {
+    margin-right: 5px;
+  }
+
+  .imgContainer {
+    /* background-image: none; или убирать изображение или повторять. 
+        Как по мне так прикольнее повторять. 
+        Или в таких случаях лучше искать альтернативное изображение? */
+    background-repeat: repeat;
+    padding: 0;
+  }
+
+  .formContainer {
+    margin: 30px auto;
+  }
+
+  .onWay {
+      height: 100px;
+  }
+
+  .onWay h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}

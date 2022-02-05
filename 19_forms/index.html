@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta descriptions="boiller plate">
+    <meta  name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="page">
+        <form>
+            <fieldset class="personal">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Yor name">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Yor email">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Yor password">
+                <label for="birth">Date of Birth</label>
+                <input type="date" name="birth">
+            </fieldset>
+            <fieldset class="type">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender"><span>Male</span>
+                <input type="radio" name="gender"><span>Female</span>
+                <label for="country">Your country</label>
+                <select name="country" id="country">
+                    <option value="russia">Russia</option>
+                    <option value="usa">USA</option>
+                    <option value="spain">Spain</option>
+                </select>
+            </fieldset>
+            <fieldset class="message">
+                <label for="message">Your message</label>
+                <textarea name="message"></textarea>
+                <input type="checkbox" checked = "true"> <span>I'm not a pigeon</span>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
